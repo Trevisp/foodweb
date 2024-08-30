@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Flavours - Online Food Delivery</title>
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <!-- Latest compiled and minified CSS (update the URL to the correct Bootstrap version) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="style3.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <!--nav bar section starts-->
+    <section>
+  <!-- Add 'navbar-expand-md' to control when the menu collapses into a hamburger -->
+<nav class="navbar navbar-expand-md p-3 navbar-dark">
+  <div class="container">
+      <a class="navbar-brand" href="#"><img src="image/logo.png" width="50px" height="50px" class="img-fluid"></a>
+
+      <!-- Add the 'navbar-toggler' button for the hamburger menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Add the 'collapse navbar-collapse' div to wrap the navigation links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="file:///C:/xampp/htdocs/food%20web/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="file:///C:/xampp/htdocs/food%20web/about.html#">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="file:///C:/xampp/htdocs/food%20web/shop.html#">Menu</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#"><img src="image/search.png" alt="search" width="30px" height="30px"></a>
+          </li>
+          <li class="nav-item">
+            <!-- Update the cart icon link in the navbar -->
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+              <img src="image/cart.png" alt="cart" width="30px" height="30px">
+              <span id="cart-count-navbar">0</span>
+            </a>
+          </li>
+      </ul>
+      </div>
+  </div>
+</nav>
+
+  </section>
+   <!--nav bar ends-->
+
+   <!--hero section starts-->
+   <div class="container">
+   <section class="hero">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center"><b>Our Menu</b></h1>
+            <img src="image/onlinefood.jpg" alt="online food">
+              </div>
+          </div>
+   </section>
+   <hr>
+   <!--hero section ends-->
+
+   <!--main  section starts-->
+   <section class="main">
+    <h2 class="text-center"><b>Fast food</b></h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body d-flex justify-content-between">
+            <div>
+              <h4 class="card-title">Chicken & Fries</h4>
+              <img class="card-img-bottom" src="image/bugger.png" alt="Card image" style="width:100%">
+              <p class="card-text"><b>Ksh.799</b></p>
+            </div>
+         <a href="#" onclick="addToCart('Chicken & Fries', 799)"><img src="image/add.png"></a>
+
+          </div>
+          
+        </div>
+      </div>
+      
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between">
+                  <div>
+                    <h4 class="card-title">Chicken & Fries</h4>
+                    <img class="card-img-bottom" src="image/bugger.png" alt="Card image" style="width:100%">
+                    <p class="card-text"><b>Ksh.799</b></p>
+                  </div>
+               <a href="#" onclick="addToCart('Chicken & Fries', 799)"><img src="image/add.png"></a>
+
+                </div>
+                
+              </div>
+              
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between">
+                  <div>
+                    <h4 class="card-title">Chicken Nuggets</h4>
+                    <img class="card-img-bottom" src="image/bugger.png" alt="Card image" style="width:100%">
+                    <p class="card-text"><b>Ksh.800</b></p>
+                  </div>
+                  <a href="#" onclick="addToCart('Chicken Nuggets', 800)"><img src="image/add.png"></a>
+                </div>
+                
+              </div>
+              
+        </div>
+    </div>
+    <div class="row">
+      <h2 class="text-center"><b>Beverages</b></h2>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between">
+                  <div>
+                    <h4 class="card-title">Samosa</h4>
+                    <img class="card-img-bottom" src="image/bugger.png" alt="Card image" style="width:100%">
+                    <p class="card-text"><b>Ksh.799</b></p>
+                  </div>
+                  <a href="#" onclick="addToCart('Chicken & Fries', 799)"><img src="image/add.png"></a>
+                </div>
+              </div>
+              
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between">
+                  <div>
+                    <h4 class="card-title">Breakfast</h4>
+                    <img class="card-img-bottom" src="image/bugger.png" alt="Card image" style="width:100%">
+                    <p class="card-text"><b>Ksh.799</b></p>
+                  </div>
+                  <a href="#" onclick="addToCart('Chicken & Fries', 799)"><img src="image/add.png"></a>
+                </div>
+              </div>
+              
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between">
+                  <div>
+                    <h4 class="card-title">Breakfast</h4>
+                    <img class="card-img-bottom" src="image/bugger.png" alt="Card image" style="width:100%">
+                    <p class="card-text"><b>Ksh.799</b></p>
+                  </div>
+                  <a href="#" onclick="addToCart('Chicken & Fries', 799)"><img src="image/add.png"></a>
+                </div>
+              </div>
+              
+        </div>
+    </div>
+
+    <div class="row">
+      <h2 class="text-center"><b>Street food</b></h2>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between">
+                  <div>
+                    <h4 class="card-title">Samosa</h4>
+                    <img class="card-img-bottom" src="image/bugger.png" alt="Card image" style="width:100%">
+                    <p class="card-text"><b>Ksh.799</b></p>
+                  </div>
+                  <a href="#" onclick="addToCart('Chicken & Fries', 799)"><img src="image/add.png"></a>
+                </div>
+              </div>
+              
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between">
+                  <div>
+                    <h4 class="card-title">Breakfast</h4>
+                    <img class="card-img-bottom" src="image/bugger.png" alt="Card image" style="width:100%">
+                    <p class="card-text"><b>Ksh.799</b></p>
+                  </div>
+                  <a href="#" onclick="addToCart('Chicken & Fries', 799)"><img src="image/add.png"></a>
+                </div>
+              </div>
+              
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between">
+                  <div>
+                    <h4 class="card-title">Breakfast</h4>
+                    <img class="card-img-bottom" src="image/bugger.png" alt="Card image" style="width:100%">
+                    <p class="card-text"><b>Ksh.799</b></p>
+                  </div>
+                  <a href="#" onclick="addToCart('Chicken & Fries', 799)"><img src="image/add.png"></a>
+                </div>
+              </div>
+              
+        </div>
+    </div>
+    
+   </section>
+   <hr>
+   <!--main section ends-->
+   <!--testimonial section starts-->
+   <section class="testimony">
+    <h2 class="text-center"><b>Testimonials</b></h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="image/testimony.png" alt="avatar">
+        </div>
+        <div class="col-md-6">
+            <p>"I've been using Fast Flavours for months now, and I can't imagine life without it. The variety of
+                 restaurants and cuisines available at my fingertips is incredible. The food always arrives hot and
+                  delicious. Fast Flavours, you've made my busy life so much easier!"</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p>"Fast Flavours is the best thing that's ever happened to my taste buds. I can order from my favorite
+                 local restaurants or explore new places, all with just a few clicks. The convenience and speedy
+                  delivery have me hooked. Thanks, Fast Flavours!"
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="image/man.png" alt="man">
+        </div>
+    </div>
+   </section>
+   <hr>
+   <!--testimonial section ends-->
+   <!--contact section starts-->
+
+   <section class="contact">
+   <h2 class="text-center"><b>Contact</b></h2>
+   <div class="row">
+        <div class="col-md-4">
+            <p class="h3">Contact info</p>
+            <p><img src="image/location.png" alt="location" width="30px" height="30px">Umoja,Nairobi</p>
+            <p><img src="image/mail.png" alt="mail" width="30px" height="30px">FastFlavours@gmail.com</p>
+            <p><img src="image/call.png" alt="contact" width="30px" height="30px">+254717873600</p>
+        </div>
+        <div class="col-md-4">
+            <p class="h3">Quick links</p>
+                <a href="http://" class="link">Home</a><br>
+                <a href="http://"  class="link">Menu</a><br>
+                <a href="http://"  class="link">About</a><br>
+                <a href="http://"  class="link">Contact</a>
+        </div>
+        <div class="col-md-4">
+            <p class="h3">Fast Flavours <img src="image/logo.png" alt="logo" width="50px" height="50px" class="img-fluid"></p>
+            <p>
+                Contact Us through our contact details and social media platforms below to know more about us.
+            </p>
+            <a href=""><img src="image/instagram.png" alt="instagram" width="30px" height="30px"></a>
+            <a href=""><img src="image/twitter.png" alt="twitter" width="30px" height="30px"></a>
+            <a href=""><img src="image/facebook.png" alt="facebook" width="30px" height="30px"></a>
+        </div>
+   </div>
+   </section>
+   <!--contact section ends-->
+
+   <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+            <h4 class="modal-title"><b>My Shopping cart</b></h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <!-- Your modal HTML -->
+          <ul>
+            <li>
+              <img src="image/burger.png" alt="burger" class="img-fluid">
+              <p>Burger</p>
+              <p>Ksh799</p>
+              <button id="add-to-cart">+</button>
+              <span id="cart-count-modal">0</span>
+              <button id="remove-from-cart">-</button>
+              <button id="remove-item">Remove</button>
+            </li>
+          </ul>
+          
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button class="btn btn-secondary">Proceed to checkout</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+  // Function to handle adding to the cart
+  function addToCart() {
+    var cartCountModal = parseInt(document.getElementById("cart-count-modal").innerText);
+    cartCountModal += 1;
+    document.getElementById("cart-count-modal").innerText = cartCountModal;
+
+    var cartCountNavbar = parseInt(document.getElementById("cart-count-navbar").innerText);
+    cartCountNavbar += 1;
+    document.getElementById("cart-count-navbar").innerText = cartCountNavbar;
+  }
+
+  // Function to handle removing from the cart
+  function removeFromCart() {
+    var cartCountModal = parseInt(document.getElementById("cart-count-modal").innerText);
+
+    // Make sure the count doesn't go below 0
+    if (cartCountModal > 0) {
+      cartCountModal -= 1;
+      document.getElementById("cart-count-modal").innerText = cartCountModal;
+
+      var cartCountNavbar = parseInt(document.getElementById("cart-count-navbar").innerText);
+      cartCountNavbar -= 1;
+      document.getElementById("cart-count-navbar").innerText = cartCountNavbar;
+    }
+  }
+
+  // Function to handle removing the entire item from the cart
+  function removeItem() {
+    var cartCountModal = parseInt(document.getElementById("cart-count-modal").innerText);
+
+    // Remove the entire item, so set the count to 0
+    document.getElementById("cart-count-modal").innerText = 0;
+
+    var cartCountNavbar = parseInt(document.getElementById("cart-count-navbar").innerText);
+    // Subtract the count of the removed item from the total count
+    document.getElementById("cart-count-navbar").innerText = cartCountNavbar - cartCountModal;
+  }
+
+  // Attach the functions to the corresponding buttons
+  document.getElementById("add-to-cart").addEventListener("click", addToCart);
+  document.getElementById("remove-from-cart").addEventListener("click", removeFromCart);
+  document.getElementById("remove-item").addEventListener("click", removeItem);
+</script>
+</body>
+</html>

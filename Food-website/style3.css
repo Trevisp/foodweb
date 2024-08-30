@@ -1,0 +1,141 @@
+body{
+    margin:auto;
+    font-size: 22px;
+    background-color: #c09162ff;
+    color: black;
+    font-family:Montserrat;
+    line-height: 36px;
+}
+.img-fluid{
+    background-color: aliceblue;
+    border-radius: 50% 50% 77% 23% / 57% 71% 29% 43%;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-left: 100px;
+    color: #000000;
+    font-weight: bold;
+}
+.nav-link:hover{
+   color:  #FCC419;
+}
+.nav-item span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #FCC419;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    right:-5%;
+    text-align: center;
+}
+.hero img{
+    width: 100%;
+}
+.hero h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 3px solid;
+    color: black;
+}
+.main .card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius:30px ;
+}
+.card img{
+    transition: transform 0.3s; 
+    text-align: center;
+}
+.card img:hover {
+  transform: scale(1.1); /* Increase the scale factor for a stronger zoom effect */
+}
+.card .card-title{
+    text-align: center;
+}
+.main a{
+   display: flex;
+   align-items: flex-end;
+}
+.testimony img{
+    border: 2px double ;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 30% 70% 70% 30% / 37% 30% 70% 63% ;
+}
+.contact .link{
+    color: #000000;
+    text-decoration: none;
+}
+.contact .link:hover{
+    color: #FCC419;
+}
+
+.modal fade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.modal .modal-title{
+    text-align: center;
+}
+.modal .modal-body {
+    background-color: #f5f5f5;
+    padding: 20px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.modal h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.modal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.modal li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.modal img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.modal button {
+    background-color: #FCC419;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.modal button:hover{
+    background-color: #F79F1F;
+}
+.modal .modal-footer{
+    display: flex;
+    justify-content: space-between;
+}

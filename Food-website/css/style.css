@@ -1,0 +1,162 @@
+body{
+    background-color:#c09162;
+    color:#000000;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 36px;
+}
+.navbar .img-fluid{
+    background-color: white;
+    border-radius: 52% 48% 77% 23% / 53% 55% 45% 47% ;
+}
+/*.navbar-nav{
+    border: none;
+    border-radius: 30px;
+    background-color: aliceblue;
+}*/
+.navbar-nav .nav-link{
+    text-decoration: none;
+    margin-left: 100px;
+    color: #000000;
+    font-weight: bold;
+    
+}
+.navbar-nav .nav-link:hover{
+    color: #FCC419;
+}
+.nav-item span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #FCC419;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    right:-5%;
+    text-align: center;
+}
+.hero .h1{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+.hero h1{
+    margin: 10px;
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+.hero img{
+    border-radius:44% 56% 70% 30% / 44% 54% 46% 56% ;
+    background-color:white;
+}
+.hero a{
+    border: none;
+    border-radius: 20px;
+    padding: 2%;
+    width: 25%;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.hero hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid;
+    color: black;
+}
+.menu h2{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.menu .h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu .card{
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+.card a{
+    border: none;
+    border-radius:20px ;
+    padding: 6%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+/*.card img{
+      transition: transform 0.3s; 
+}
+.card img:hover {
+    transform: scale(1.1); /* Increase the scale factor for a stronger zoom effect 
+  }*/
+.menu hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid;
+    color: black;
+}
+.about h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.about img{
+    border-radius: 50% 50% 77% 23% / 57% 71% 29% 43% ;
+    background-color: white;
+
+}
+ hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 3px solid;
+    color: black;
+}
+.testimony h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.testimony img{
+    border: 2px double ;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 30% 70% 70% 30% / 37% 30% 70% 63% ;
+}
+.contact h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.contact .h3{
+    font-weight: bold;
+}
+.contact .img-fluid{
+    border-radius: 50% 50% 77% 23% / 57% 71% 29% 43% ;
+    background-color: white;
+}
+.contact .link{
+    color:black;
+    text-decoration: none;
+}
+.contact .link:hover{
+    color: #FCC419;
+}
+.about .social{
+    margin-left: 50px;
+}

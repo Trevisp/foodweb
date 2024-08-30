@@ -1,0 +1,84 @@
+body{
+    margin: auto;
+    background-color: #c09162ff;
+    color:#000000;
+    font-family: Montserrat;
+    font-size:22px;
+    line-height: 36px;
+}
+.img-fluid{
+    background-color: aliceblue;
+    border-radius: 50% 50% 77% 23% / 57% 71% 29% 43%;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-left: 100px;
+    color: #000000;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #FCC419;
+}
+.nav-item span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #FCC419;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    right:-5%;
+    text-align: center;
+}
+.hero h1{
+    font-weight: bold;
+}
+.hero img{
+    width: 100%;
+    height: 720px;
+}
+.hero input{
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.hero textarea{
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.hero .bg-warning{
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-weight: bold;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid;
+    color: black;
+}
+.contact h2{
+    font-weight: bold;
+}
+.contact .link{
+    color: #000000;
+    text-decoration:none ;
+}
+.contact .link:hover{
+    color: #FCC419;
+}

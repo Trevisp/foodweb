@@ -1,0 +1,106 @@
+body{
+    margin: auto;
+    background-color: #c09162ff;
+    color:#000000;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 36px;
+}
+.navbar .img-fluid{
+    background-color: white;
+    border-radius: 52% 48% 77% 23% / 53% 55% 45% 47% ;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 100px;
+    color: #000000;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: aliceblue;
+}
+.nav-item span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #FCC419;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    right:-5%;
+    text-align: center;
+}
+.hero h1{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hero hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid;
+    color: black;
+}
+.hero img{
+    border: 2px double ;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 30% 70% 70% 30% / 37% 30% 70% 63% ;
+}
+.hero a{
+    border: none;
+    border-radius: 20px;
+    padding: 2%;
+    width: 25%;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero img{
+    max-height: fit-content;
+}
+.menu p{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu .card{
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+.card a{
+    border: none;
+    border-radius:20px ;
+    padding: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.service hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 3px;
+}
+.contact h2{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact .img-fluid{
+    border-radius: 50% 50% 77% 23% / 57% 71% 29% 43% ;
+    background-color: white;
+}
+.contact .link{
+    color:black;
+    text-decoration: none;
+}
+.contact .link:hover{
+    color: #FCC419;
+}
